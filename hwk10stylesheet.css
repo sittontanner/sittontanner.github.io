@@ -21,6 +21,16 @@ nav li {
     margin-right: 20px;
 }
 
+nav a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+    nav a:hover {
+        border-bottom: 2px solid #fff;
+    }
+
 .content {
     max-width: 800px;
     margin: 20px auto;
