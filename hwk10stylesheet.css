@@ -24,11 +24,10 @@ nav li {
 nav a {
     text-decoration: none;
     color: #fff;
-    border-bottom: 1px solid #fff;
 }
 
     nav a:hover {
-        border-bottom: 2px solid #fff;
+        border-bottom: none; /* Remove the white underline on hover */
     }
 
 .content {
