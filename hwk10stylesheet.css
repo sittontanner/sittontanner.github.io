@@ -27,7 +27,7 @@ nav a {
 }
 
     nav a:hover {
-        border-bottom: 0; /* Remove the white underline on hover */
+        border-bottom: none; /* Remove the white underline on hover */
     }
 
 .content {
@@ -35,6 +35,15 @@ nav a {
     margin: 20px auto;
     padding: 20px;
 }
+
+ul {
+    list-style-type: disc; /* Add bullet points back */
+    padding: 0;
+}
+
+    ul li {
+        margin-bottom: 10px; /* Adjust the value to control the spacing */
+    }
 
 footer {
     background-color: #333;
