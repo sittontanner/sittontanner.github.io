@@ -36,6 +36,15 @@ nav a {
     padding: 20px;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+    ul li {
+        margin-bottom: 10px; /* Adjust the value to control the spacing */
+    }
+
 footer {
     background-color: #333;
     color: #fff;
